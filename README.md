@@ -119,10 +119,21 @@ Each call is a fresh, stateless request (no chat history). The run is resumable:
 python src/score.py data/pilot_outputs.json results/scores.csv
 ```
 
+This regenerates every value of the pilot table below, including pooled TQ and the Check/Select row.
+Each output in `data/pilot_outputs.json` stores its annotated MQM error counts per category (`errors`);
+the script stops if they do not reproduce the stored sentence score.
+
 **3. Run the rule-based politeness checker:**
 
 ```bash
 python src/sociobridge_checker.py data/pilot_outputs.json data/checker_metadata.json results/
+```
+
+**4. Held-out checker test (no API key; needs the data-collection workbook):**
+
+```bash
+python src/eval_checker_heldout.py        # validated rows only (Validated = Y)
+python src/eval_checker_heldout.py --all  # every row
 ```
 
 ## Pilot results (Gemini 3.6 Flash, 8 sentences × 5 conditions)
@@ -134,7 +145,7 @@ python src/sociobridge_checker.py data/pilot_outputs.json data/checker_metadata.
 | No Hierarchy | 83.6 | 83.6 | 5/8 | 3.32 | 27.6 |
 | No Distance | 87.3 | 88.6 | 6/8 | 3.34 | 27.6 |
 | No Intent | 18.2 | 62.3 | 4/8 | 3.06 | 28.1 |
-| Full Context + Check/Select | — | 100.0 | 8/8 | 3.32 | 26.9 |
+| Full Context + Check/Select | 100.0 | 100.0 | 8/8 | 3.32 | 26.9 |
 
 Checker vs. human labels: precision 1.00, recall 0.94, F1 0.97 (TP 17, FP 0, FN 1, TN 22).
 

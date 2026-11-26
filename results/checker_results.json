@@ -10,6 +10,9 @@
   "mqm": 80,
   "acc": "Partially accurate",
   "expl": "Partially accurate. No closing politeness particle at all; grammatically incomplete as a formal request",
+  "errors": {
+   "Polite Particle Omission": 1
+  },
   "violations": [
    [
     "R4",
@@ -29,6 +32,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -43,6 +47,9 @@
   "mqm": 60,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Plainer verb than Full Context but still polite",
+  "errors": {
+   "Style/Formality Error": 1
+  },
   "violations": [],
   "flagged": false
  },
@@ -57,6 +64,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -71,6 +79,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct (identical output to ablation_distance)",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -85,6 +94,11 @@
   "mqm": 0,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Wrapped in unrequested explanatory note (format non-compliance); embedded translation closes with a weaker particle than expected",
+  "errors": {
+   "Socio-Pragmatic Error": 1,
+   "Style/Formality Error": 1
+  },
+  "errors_note": "Socio-Pragmatic Error certain; the weaker closing particle is coded as one Style/Formality Error (category inferred from the annotation note; the sentence score is floored at 0 either way)",
   "violations": [
    [
     "R1",
@@ -120,6 +134,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct, no extra commentary",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -134,6 +149,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Identical to Full Context",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -148,6 +164,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct, more formal phrasing",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -162,6 +179,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct aside from a stray formatting space (not counted as a linguistic error)",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -176,6 +194,10 @@
   "mqm": 0,
   "acc": "Not accurate",
   "expl": "Not accurate. Contains a broken/garbled non-word fragment (Accuracy); wrapped in a long unsolicited Thai-language explanation (format non-compliance)",
+  "errors": {
+   "Accuracy": 1,
+   "Socio-Pragmatic Error": 1
+  },
   "violations": [
    [
     "R1",
@@ -207,6 +229,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -221,6 +244,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -235,6 +259,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Identical to Full Context",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -249,6 +274,9 @@
   "mqm": 16.7,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Uses the female-register closing particle despite the speaker being male in the dataset",
+  "errors": {
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R5",
@@ -268,6 +296,11 @@
   "mqm": 0,
   "acc": "Not accurate",
   "expl": "Not accurate. Generic address term instead of 'Manager' plus an unresolved gendered alternative (2x Honorific Mismatch); long unsolicited explanation (Socio-Pragmatic Error); casual closing particle instead of the formal register used elsewhere (Register Collapse)",
+  "errors": {
+   "Honorific Mismatch": 2,
+   "Socio-Pragmatic Error": 1,
+   "Register Collapse": 1
+  },
   "violations": [
    [
     "R1",
@@ -299,6 +332,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct address term, correct self-reference, correct closing particle",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -313,6 +347,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Identical to Full Context",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -327,6 +362,9 @@
   "mqm": 71.4,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Uses a different, slightly less expected self-reference term",
+  "errors": {
+   "Style/Formality Error": 1
+  },
   "violations": [
    [
     "R7",
@@ -346,6 +384,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Identical to Full Context",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -360,6 +399,11 @@
   "mqm": 0,
   "acc": "Not accurate",
   "expl": "Not accurate. Generic/unresolved address term (Honorific Mismatch); redundant phrasing (Style/Formality); long explanatory wrapper restating the Thai source as a heading (Socio-Pragmatic Error)",
+  "errors": {
+   "Honorific Mismatch": 1,
+   "Style/Formality Error": 1,
+   "Socio-Pragmatic Error": 1
+  },
   "violations": [
    [
     "R1",
@@ -395,6 +439,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -409,6 +454,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct, slightly different phrasing but appropriate",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -423,6 +469,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -437,6 +484,10 @@
   "mqm": 0,
   "acc": "Not accurate",
   "expl": "Not accurate. Unresolved address-term hedge again (Honorific Mismatch); mistranslates the number of days - says 6 instead of the source's 2 (Accuracy)",
+  "errors": {
+   "Honorific Mismatch": 1,
+   "Accuracy": 1
+  },
   "violations": [
    [
     "R3",
@@ -464,6 +515,11 @@
   "mqm": 0,
   "acc": "Not accurate",
   "expl": "Not accurate. Untranslated Thai word fused directly into the Burmese sentence (Accuracy); unsolicited explanatory wrapper including a garbled first attempt (Socio-Pragmatic Error); casual closing particle instead of the formal register used elsewhere (Register Collapse)",
+  "errors": {
+   "Accuracy": 1,
+   "Socio-Pragmatic Error": 1,
+   "Register Collapse": 1
+  },
   "violations": [
    [
     "R1",
@@ -495,6 +551,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct, uses an elevated formal petition verb",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -509,6 +566,9 @@
   "mqm": 37.5,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Uses a generic 'senior person' term instead of the specific 'Manager' role given in context",
+  "errors": {
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R6",
@@ -528,6 +588,9 @@
   "mqm": 37.5,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Same generic-term substitution",
+  "errors": {
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R6",
@@ -547,6 +610,9 @@
   "mqm": 37.5,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Unresolved gender-hedged address term instead of 'Manager'",
+  "errors": {
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R3",
@@ -570,6 +636,10 @@
   "mqm": 0,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Unresolved slash-alternative address term; long unsolicited bilingual explanatory wrapper - though self-reference and closing particle are actually correct",
+  "errors": {
+   "Honorific Mismatch": 1,
+   "Socio-Pragmatic Error": 1
+  },
   "violations": [
    [
     "R1",
@@ -597,6 +667,10 @@
   "mqm": 0,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Uses a generic term instead of 'Manager' (Honorific Mismatch); trailing ellipsis and a closing particle missing its diacritic, likely a typo (Style/Formality) - a reminder Full Context was not flawless here",
+  "errors": {
+   "Honorific Mismatch": 1,
+   "Style/Formality Error": 1
+  },
   "violations": [
    [
     "R6",
@@ -616,6 +690,9 @@
   "mqm": 71.4,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Correctly uses 'Manager', but self-reference term is less formally appropriate than Full Context's",
+  "errors": {
+   "Style/Formality Error": 1
+  },
   "violations": [
    [
     "R7",
@@ -635,6 +712,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -649,6 +727,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Identical to ablation_distance",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -663,6 +742,10 @@
   "mqm": 0,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Rewrites the Thai source sentence itself before translating (format non-compliance); embedded candidate uses an indirect, generic phrasing instead of 'Manager'",
+  "errors": {
+   "Socio-Pragmatic Error": 1,
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R1",
@@ -686,6 +769,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct, direct first-person request, proper formal closing",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -700,6 +784,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -714,6 +799,7 @@
   "mqm": 100,
   "acc": "Accurate",
   "expl": "Accurate. Correct",
+  "errors": {},
   "violations": [],
   "flagged": false
  },
@@ -728,6 +814,9 @@
   "mqm": 44.4,
   "acc": "Partially accurate",
   "expl": "Partially accurate. Unresolved gender-hedged address term instead of 'Manager'",
+  "errors": {
+   "Honorific Mismatch": 1
+  },
   "violations": [
    [
     "R3",

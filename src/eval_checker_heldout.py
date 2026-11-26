@@ -1,7 +1,7 @@
 """Held-out test of the rule-based checker (no API calls needed).
 
 The rules were developed on the 8 pilot sentences (data/pilot_sentences.json). The data-collection
-workbook has ~91 further sentences with a human Burmese reference. This script uses them in two ways:
+workbook has further sentences with a human Burmese reference. This script uses them in two ways:
 
 1. Reference test (false positives): a human reference should be accepted by the checker.
    Every flag is either a false positive or a reference that really lacks a required marker; the
@@ -13,7 +13,10 @@ workbook has ~91 further sentences with a human Burmese reference. This script u
 Limits: injected errors are synthetic and simpler than real LLM errors, and only upward speech has
 strict rules. This complements, and does not replace, a test on real model outputs with human labels.
 
-Usage:  python src/eval_checker_heldout.py
+Only rows marked Validated = Y in the workbook are used (rows with pending validator corrections are
+marked N); pass --all to include every row.
+
+Usage:  python src/eval_checker_heldout.py [--all]
 Output: results/heldout_checker.json and results/heldout_checker_summary.txt
 """
 import json
@@ -116,7 +119,12 @@ MUTATIONS = [  # name, function, expected rule(s)
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")
     sents = [s for s in load_workbook_sentences() if s["ref_my"]]
+    if "--all" not in sys.argv:
+        excluded = sorted(s["no"] for s in sents if s["validated"] != "Y")
+        sents = [s for s in sents if s["validated"] == "Y"]
+        print(f"Using {len(sents)} validated rows; excluded (not Validated = Y): {excluded}")
     held = [s for s in sents if s["no"] not in PILOT_NOS]
     dev = [s for s in sents if s["no"] in PILOT_NOS]
     lines, result = [], {}

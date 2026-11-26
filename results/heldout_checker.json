@@ -9,13 +9,12 @@
  },
  "reference_test_heldout": {
   "Upward": {
-   "n": 53,
-   "flagged": 34,
+   "n": 50,
+   "flagged": 32,
    "by_rule": {
-    "R4": 12,
+    "R4": 11,
     "R3": 6,
-    "R6": 20,
-    "R5": 1,
+    "R6": 19,
     "R8": 3,
     "R9": 1
    },
@@ -47,13 +46,6 @@
     [
      21,
      [
-      "R6"
-     ]
-    ],
-    [
-     22,
-     [
-      "R5",
       "R6"
      ]
     ],
@@ -123,12 +115,6 @@
      60,
      [
       "R6"
-     ]
-    ],
-    [
-     61,
-     [
-      "R4"
      ]
     ],
     [
@@ -249,31 +235,31 @@
   }
  },
  "diagnosis": {
-  "R6_flags": 20,
+  "R6_flags": 19,
   "R6_no_address_word_in_source": 13,
-  "R4_flags": 12,
-  "R4_informal_ending": 7,
+  "R4_flags": 11,
+  "R4_informal_ending": 6,
   "R3_flags": 6,
   "R3_listener_gender_unknown": 6,
   "R9_flags": 1
  },
  "mutation_test": {
   "wrong-gender final particle": {
-   "n": 17,
-   "expected_rule_flagged": 17,
-   "any_flag": 17,
+   "n": 16,
+   "expected_rule_flagged": 16,
+   "any_flag": 16,
    "misses": []
   },
   "final particle removed": {
-   "n": 19,
-   "expected_rule_flagged": 19,
-   "any_flag": 19,
+   "n": 18,
+   "expected_rule_flagged": 18,
+   "any_flag": 18,
    "misses": []
   },
   "casual pronoun added": {
-   "n": 19,
-   "expected_rule_flagged": 19,
-   "any_flag": 19,
+   "n": 18,
+   "expected_rule_flagged": 18,
+   "any_flag": 18,
    "misses": []
   },
   "generic address term": {
@@ -283,27 +269,27 @@
    "misses": []
   },
   "hedged alternatives": {
-   "n": 19,
-   "expected_rule_flagged": 19,
-   "any_flag": 19,
+   "n": 18,
+   "expected_rule_flagged": 18,
+   "any_flag": 18,
    "misses": []
   },
   "wrong-gender self-reference": {
-   "n": 17,
-   "expected_rule_flagged": 17,
-   "any_flag": 17,
+   "n": 16,
+   "expected_rule_flagged": 16,
+   "any_flag": 16,
    "misses": []
   },
   "Thai script leaked": {
-   "n": 19,
-   "expected_rule_flagged": 19,
-   "any_flag": 19,
+   "n": 18,
+   "expected_rule_flagged": 18,
+   "any_flag": 18,
    "misses": []
   },
   "commentary / markdown": {
-   "n": 19,
-   "expected_rule_flagged": 19,
-   "any_flag": 19,
+   "n": 18,
+   "expected_rule_flagged": 18,
+   "any_flag": 18,
    "misses": []
   },
   "number dropped": {
