@@ -84,7 +84,7 @@ Results from fallback models (for example flash-lite) are weaker than from the F
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/sociobridge-tb.git
+git clone https://github.com/saungmolly2001-lang/sociobridge-tb.git
 cd sociobridge-tb
 python -m venv .venv
 # Windows:
