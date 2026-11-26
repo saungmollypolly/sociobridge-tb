@@ -1,0 +1,17 @@
+Checker vs. human labels: TP=17 FP=0 FN=1 TN=22
+Precision=1.00 Recall=0.94 F1=0.97
+Zero-Shot: flagged 8/8, violations 28
+Full Context: flagged 1/8, violations 1
+Ablation: No Social Hierarchy: flagged 2/8, violations 2
+Ablation: No Social Distance: flagged 2/8, violations 2
+Ablation: No Communicative Intent: flagged 4/8, violations 8
+Checker-guided selection: 8/8 accurate
+Checker-guided selection: mean MQM TQ = 100.0
+  sentence 1: Full Context
+  sentence 3: Full Context
+  sentence 4: Full Context
+  sentence 5: Full Context
+  sentence 6: Full Context
+  sentence 7: Full Context
+  sentence 8: Ablation: No Social Distance
+  sentence 9: Full Context

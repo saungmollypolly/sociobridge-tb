@@ -1,0 +1,181 @@
+{
+  "_note": "Pilot sentences with social metadata, verified against Data_collection_File_30-Sep-2026.xlsx.",
+  "sentences": [
+    {
+      "no": 1,
+      "setting": "Education",
+      "th": "ขอคำแนะนำการติดต่อ professor ครับ",
+      "en": "Could you please advise me on how to contact the professor?",
+      "ref_my": "Professor ကိုဘယ်လိုဆက်သွယ်ရမလဲဆိုတာ ကျွန်တော့ကို အကြံလေး ပေးလို့ရမလားခင်ဗျာ။",
+      "speaker": {
+        "role": "Student",
+        "gender": "Male"
+      },
+      "listener": {
+        "role": "Advisor/Senior person",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Unfamiliar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 3,
+      "setting": "Education",
+      "th": "ผมอยากขอคำแนะนำเรื่องการขอ Letter of Recommendation ครับ",
+      "en": "I would like to ask for advice on requesting a letter of recommendation.",
+      "ref_my": "Letter of Recommendation ကိုဘယ်လိုတောင်းရမလဲ အကြံလေး ပေးလို့ရမလားခင်ဗျာ။",
+      "speaker": {
+        "role": "Student",
+        "gender": "Male"
+      },
+      "listener": {
+        "role": "Academic Advisor/Professor",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Unfamiliar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 4,
+      "setting": "Education",
+      "th": "อาจารย์ครับ ช่วยแนะนำเรื่องนี้ให้ผมหน่อยครับ",
+      "en": "Professor, could you please give me some advice on this matter?",
+      "ref_my": "ကျွန်တော့ကို အကြံ အနည်းငယ်လောက် ပေးလို့ရမလား professor ခင်ဗျ။",
+      "speaker": {
+        "role": "Student",
+        "gender": "Male"
+      },
+      "listener": {
+        "role": "Professor",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Unfamiliar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 5,
+      "setting": "Workplace",
+      "th": "หัวหน้าคะ หนูขอลาป่วยวันนี้นะคะ",
+      "en": "Manager, I would like to request sick leave for today.",
+      "ref_my": "ဒီနေ့အတွက် sick ခွင့် လေး တောင်းချင်လို့ပါ manager ရှင့်။",
+      "speaker": {
+        "role": "Employee",
+        "gender": "Female"
+      },
+      "listener": {
+        "role": "Manager",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Familiar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 6,
+      "setting": "Workplace",
+      "th": "หัวหน้าคะ ขออนุญาตลาพักร้อน 2 วันค่ะ",
+      "en": "Manager, may I request two days of annual leave?",
+      "ref_my": "ကျွန်မ annual leave နှစ်ရက်လောက် တိုင်ခွင့်ပြုပါ manager ရှင့်။",
+      "speaker": {
+        "role": "Employee",
+        "gender": "Female"
+      },
+      "listener": {
+        "role": "Manager",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Familiar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 7,
+      "setting": "Workplace",
+      "th": "หัวหน้าครับ รบกวนช่วยอนุมัติเอกสารให้ด้วยครับ",
+      "en": "Manager, could you please approve this document for me?",
+      "ref_my": "ကျွန်တော့ကို ဒီ document လေး approve ပေးလို့ရမလား manager ခင်ဗျ။",
+      "speaker": {
+        "role": "Employee",
+        "gender": "Male"
+      },
+      "listener": {
+        "role": "Manager",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Familiar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 8,
+      "setting": "Workplace",
+      "th": "หัวหน้าคะ หนูโทรมาขอลาป่วยค่ะ",
+      "en": "Manager, I'm calling to ask for sick leave.",
+      "ref_my": "Manager ရှင့် ။ Sick leave တိုင်ချင်လို့ ခေါ်လိုက်တာပါရှင့်။",
+      "speaker": {
+        "role": "Employee",
+        "gender": "Female"
+      },
+      "listener": {
+        "role": "Manager",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Familiar",
+      "communicative_intent": "Request"
+    },
+    {
+      "no": 9,
+      "setting": "Workplace",
+      "th": "หัวหน้าครับ ผมขออนุมัติลาพักร้อนในระบบครับ",
+      "en": "Manager, I would like to request approval for my annual leave in the system.",
+      "ref_my": "Manager ခင်ဗျ။ Annual leave ကို system မှတစ်ဆင့် တိုင်ခွင့်ပြုပါ ခင်ဗျ။",
+      "speaker": {
+        "role": "Employee",
+        "gender": "Male"
+      },
+      "listener": {
+        "role": "Manager",
+        "gender": "Unknown"
+      },
+      "social_hierarchy": {
+        "direction": "Upward",
+        "relative_age": "Older",
+        "relative_status": "Higher"
+      },
+      "social_distance": "Familiar",
+      "communicative_intent": "Request"
+    }
+  ]
+}

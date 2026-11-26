@@ -1,0 +1,22 @@
+# secrets - never upload
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# runtime files (cache of model calls, server logs)
+results/llm_cache.json
+results/app_*.log
+
+# quotes participant sentences from the offline data-collection workbook
+results/heldout_checker_summary.txt
+
+# OS / editor / tools
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/

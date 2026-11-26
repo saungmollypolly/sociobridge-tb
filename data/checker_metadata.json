@@ -1,0 +1,8 @@
+{"1":{"direction":"Upward","speaker_gender":"Male","listener_role":"Professor"},
+ "3":{"direction":"Upward","speaker_gender":"Male","listener_role":null},
+ "4":{"direction":"Upward","speaker_gender":"Male","listener_role":"Professor"},
+ "5":{"direction":"Upward","speaker_gender":"Female","listener_role":"Manager"},
+ "6":{"direction":"Upward","speaker_gender":"Female","listener_role":"Manager"},
+ "7":{"direction":"Upward","speaker_gender":"Male","listener_role":"Manager"},
+ "8":{"direction":"Upward","speaker_gender":"Female","listener_role":"Manager"},
+ "9":{"direction":"Upward","speaker_gender":"Male","listener_role":"Manager"}}

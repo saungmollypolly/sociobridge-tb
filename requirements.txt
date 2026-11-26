@@ -1,0 +1,5 @@
+sacrebleu>=2.4
+openpyxl>=3.1
+google-genai>=1.0
+python-dotenv>=1.0
+streamlit>=1.40

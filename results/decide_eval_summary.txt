@@ -1,0 +1,8 @@
+Rule-checker results on the 8 pilot sentences (no MQM; see the annotation sheet)
+
+Full Context (paper, human-labelled)     pass 7/8   violations {'R6': 1}
+Full Context + Decide                    pass 4/8   violations {'R4': 1, 'R6': 3, 'R7': 1}
+Decide + repair                          pass 8/8   violations -
+
+Committed levels in B: {'Formal': 8}
+Repair attempted on 4; accepted 4

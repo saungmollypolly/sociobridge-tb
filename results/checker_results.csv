@@ -1,0 +1,130 @@
+﻿No,Condition,Human label,MQM TQ,Flagged,Violated rules,Messages,Output
+1,Zero-Shot,Partially accurate,80,True,R4,Missing required polite final particle,ပါမောက္ခနဲ့ ဆက်သွယ်ဖို့ အကြံဉာဏ်လေး
+1,Full Context,Accurate,100,False,,,ပါမောက္ခဆရာကြီးနဲ့ ဆက်သွယ်ဖို့ အကြံဉာဏ် ပေးသနားတော်မူပါခင်ဗျာ။
+1,Ablation: No Social Hierarchy,Partially accurate,60,False,,,ပါမောက္ခနဲ့ ဆက်သွယ်ဖို့ အကြံပြုချက်လေး ပေးပါဦးခင်ဗျာ။
+1,Ablation: No Social Distance,Accurate,100,False,,,ပါမောက္ခဆီ ဆက်သွယ်ဖို့အတွက် အကြံဉာဏ်ပေးပါဦးခင်ဗျာ။
+1,Ablation: No Communicative Intent,Accurate,100,False,,,ပါမောက္ခဆီ ဆက်သွယ်ဖို့အတွက် အကြံဉာဏ်ပေးပါဦးခင်ဗျာ။
+3,Zero-Shot,Partially accurate,0,True,R1 R2 R3 R4 R7,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Unresolved alternative forms ('/' or parentheses); Missing required polite final particle; Self-reference does not fit speaker gender/hierarchy,"ဤသည်မှာ ထိုင်းစာကြောင်း၏ ဗမာဘာသာပြန်ဖြစ်ပါသည်။
+
+**""ကျွန်တော် ထောက်ခံစာ (Letter of Recommendation) တောင်းဆိုတဲ့ကိစ္စနဲ့ ပတ်သက်ပြီး အကြံဉာဏ်လေး တောင်းချင်လို့ပါ။""**
+
+*မှတ်ချက် - ""ผม"" (ဖွန်) သည် အမျိုးသားသုံး ဖြစ်သောကြောင့် ""ကျွန်တော်"" ဟု ပြန်ဆိုထားပါသည်။ (အမျိုးသမီးဆိုပါက ""ကျွန်မ"" ဟု ပြောင်းလဲသုံးစွဲနိုင်ပါသည်။)*"
+3,Full Context,Accurate,100,False,,,ကျွန်တော် ထောက်ခံစာ (Letter of Recommendation) တောင်းခံဖို့နဲ့ ပတ်သက်ပြီး အကြံဉာဏ် တောင်းခံချင်ပါတယ်ခင်ဗျာ။
+3,Ablation: No Social Hierarchy,Accurate,100,False,,,ကျွန်တော် ထောက်ခံစာ (Letter of Recommendation) တောင်းခံဖို့နဲ့ ပတ်သက်ပြီး အကြံဉာဏ် တောင်းခံချင်ပါတယ်ခင်ဗျာ။
+3,Ablation: No Social Distance,Accurate,100,False,,,ကျွန်တော် ထောက်ခံစာ (Letter of Recommendation) တောင်းခံဖို့အတွက် အကြံဉာဏ် ပေးသနားတော်မူပါရန် လျှောက်ထားအပ်ပါတယ်ခင်ဗျာ။
+3,Ablation: No Communicative Intent,Accurate,100,False,,,ကျွန်တော် ထောက်ခံစာ (Letter of Recommendation) တောင်းခံဖို့နဲ့ ပတ်သက်ပြီး အကြံဉာဏ် တောင်းခံချင်ပါတယ် ခင်ဗျာ။
+4,Zero-Shot,Not accurate,0,True,R1 R2 R5 R7,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Final particle of the wrong speaker gender; Self-reference does not fit speaker gender/hierarchy,"ประโยคนี้สามารถแปลเป็นภาษาพม่าได้ดังนี้ครับ:
+
+**ဆရာခင်ဗျာ၊ ဒီအကြောင်းကို ကျွန်တStudentVectorကို နည်းနည်း လမ်းညွှန်ပေးပါဦး။**
+
+*   **คำอ่าน:** ซะยา ขิ่นบะยา, ดี อะจ้อง โก จโหนด โก แน้แน้ ล่านญุ่น เป บา อู้
+*   **ถอดความหมายตามคำ:**
+    *   **ဆရာခင်ဗျာ** (ซะยา ขิ่นบะยา) = อาจารย์ครับ
+    *   **ဒီအကြောင်းကို** (ดี อะจ้อง โก) = เรื่องนี้ / เกี่ยวกับเรื่องนี้
+    *   **ကျွန်တော့်ကို** (จโหนด โก) = ให้ผม
+    *   **နည်းနည်း** (แน้แน้) = หน่อย / เล็กน้อย
+    *   **လမ်းညွှန်ပေးပါဦး** (ล่านญุ่น เป บา อู้) = ช่วยแนะนำด้วยครับ
+
+*(หมายเหตุ: คำว่า **ကျွန်တော်** (จโหนด) เป็นสรรพนามแทนตัวเองสำหรับผู้ชาย หากผู้พูดเป็นผู้หญิง ให้เปลี่ยนเป็น **ကျွန်မ** (จะมะ) และเปลี่ยนคำท้ายประโยคจาก **ခင်ဗျာ** (ขิ่นบะยา) เป็น **ရှင့်** (แช่ง) ครับ)*"
+4,Full Context,Accurate,100,False,,,ဆရာခင်ဗျာ၊ ကျွန်တော့်ကို ဒီအကြောင်းလေး နည်းနည်း လမ်းညွှန်ပေးပါဦးခင်ဗျာ။
+4,Ablation: No Social Hierarchy,Accurate,100,False,,,ဆရာခင်ဗျာ၊ ကျွန်တော့်ကို ဒီအကြောင်းအရာနဲ့ ပတ်သက်ပြီး အကြံပြုလမ်းညွှန်ပေးပါဦးခင်ဗျာ။
+4,Ablation: No Social Distance,Accurate,100,False,,,ဆရာခင်ဗျာ၊ ကျွန်တော့်ကို ဒီအကြောင်းလေး နည်းနည်း လမ်းညွှန်ပေးပါဦးခင်ဗျာ။
+4,Ablation: No Communicative Intent,Partially accurate,16.7,True,R5,Final particle of the wrong speaker gender,ဆရာရှင့်၊ ဒီအကြောင်းအရာနဲ့ ပတ်သက်ပြီး ကျွန်တော့်ကို အကြံဉာဏ် နည်းနည်းလောက် ပေးပါဦးခင်ဗျာ။
+5,Zero-Shot,Not accurate,0,True,R1 R2 R3 R6,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Unresolved alternative forms ('/' or parentheses); Address term for 'Manager' not used,"นี่คือประโยคแปลภาษาพม่าครับ:
+
+**""ဆရာ (မ/ရှင့်)၊ ဒီနေ့ ကျွန်မ မကျန်းမာလို့ ခွင့်ယူပါရစေနော်။""**
+
+*คำอ่านภาษาไทย:*
+""ซะยา (มะ/ชิน) ดีเน้ จ๊ะมะ มะจะมะโละ ขวิ่น ยู ปา ยะ เซ นอ""
+
+**คำอธิบายเพิ่มเติม:**
+* **ဆရာ (ซะยา):** หัวหน้า / เจ้านาย (ถ้าหัวหน้าเป็นผู้หญิง สามารถใช้ **ဆရာမ - ซะยา มะ** ได้ครับ)
+* **ရှင့် (ชิน):** คำลงท้ายสุภาพสำหรับผู้หญิง (เทียบเท่ากับ ""ค่ะ"")
+* **ဒီနေ့ (ดีเน้):** วันนี้
+* **ကျွန်မ (จ๊ะมะ):** หนู / ฉัน (สรรพนามสำหรับผู้หญิง)
+* **မကျန်းမာလို့ (มะจะมะโละ):** เพราะไม่สบาย / ป่วย
+* **ခွင့်ယူပါရစေနော် (ขวิ่น ยู ปา ยะ เซ นอ):** ขออนุญาตลานะคะ"
+5,Full Context,Accurate,100,False,,,မန်နေဂျာရှင့်၊ သမီး ဒီနေ့ ဆေးခွင့်ယူချင်ပါတယ်ရှင့်။
+5,Ablation: No Social Hierarchy,Accurate,100,False,,,မန်နေဂျာရှင့်၊ သမီး ဒီနေ့ ဆေးခွင့်ယူချင်ပါတယ်ရှင့်။
+5,Ablation: No Social Distance,Partially accurate,71.4,True,R7,Self-reference does not fit speaker gender/hierarchy,မန်နေဂျာရှင့်၊ မမဒီနေ့ ဆေးခွင့်ယူပါရစေရှင့်။
+5,Ablation: No Communicative Intent,Accurate,100,False,,,မန်နေဂျာရှင့်၊ သမီး ဒီနေ့ ဆေးခွင့်ယူချင်ပါတယ်ရှင့်။
+6,Zero-Shot,Not accurate,0,True,R1 R2 R3 R5 R6,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Unresolved alternative forms ('/' or parentheses); Final particle of the wrong speaker gender; Address term for 'Manager' not used,"นี่คือประโยคแปลภาษาพม่าครับ:
+
+**หัวหน้าคะ ขออนุญาตลาพักร้อน 2 วันค่ะ**
+
+* **ภาษาพม่า (ตัวอักษร):** ဆရာမ/ဆရာရှင့်၊ ၂ ရက် ခွင့်ယူခွင့်ပြုပါရှင့်။
+* **คำอ่านภาษาไทย:** ซะยามะ / ซะยา ชิ่ง, นิเย่ ขะอวิ้น ยู ขะอวิ้น ปยู บา ชิ่ง
+
+---
+
+**คำอธิบายเพิ่มเติมสำหรับการเลือกใช้:**
+1. **หัวหน้า:** 
+   * หากหัวหน้าเป็น **ผู้หญิง** ให้ใช้: **ဆရာမရှင့်** (ซะยามะ ชิ่ง)
+   * หากหัวหน้าเป็น **ผู้ชาย** ให้ใช้: **ဆရာရှင့်** (ซะยา ชิ่ง)
+2. **คำลงท้าย:** **ရှင့်** (ชิ่ง) เป็นคำลงท้ายสุภาพสำหรับ **ผู้หญิงพูด** (หากผู้พูดเป็นผู้ชาย ให้เปลี่ยนเป็น **ခင်ဗျာ - ขะมยา**)"
+6,Full Context,Accurate,100,False,,,မန်နေဂျာရှင့်၊ ခွင့်ရက်ရှည် ၂ ရက် ယူပါရစေရှင့်။
+6,Ablation: No Social Hierarchy,Accurate,100,False,,,မန်နေဂျာရှင့်၊ အလုပ်အားလပ်ရက် ခွင့် ၂ ရက် လျှောက်ထားပါရစေရှင့်။
+6,Ablation: No Social Distance,Accurate,100,False,,,မန်နေဂျာရှင့်၊ ခွင့်ရက်ရှည် ၂ ရက် ယူခွင့်ပြုပါရှင့်။
+6,Ablation: No Communicative Intent,Not accurate,0,True,R3 R6 R9,Unresolved alternative forms ('/' or parentheses); Address term for 'Manager' not used; Number in source not preserved,ဆရာ/ဆရာမရှင့်၊ ခွင့်ရက်ရှည် ၆ ရက် လျှောက်ထားပါရစေရှင့်။
+7,Zero-Shot,Not accurate,0,True,R1 R2 R5 R6,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Final particle of the wrong speaker gender; Address term for 'Manager' not used,"นี่คือประโยคแปลภาษาพม่าครับ:
+
+**หัวหน้าครับ รบกวนช่วยอนุมัติเอกสารให้ด้วยครับ**
+
+* **คำอ่านภาษาไทย:** หัวหน้าคင်, ส่า ยเวก ส่า ดาน ดเว โก อะต่ง ปยู่ เป้ บา โน่*
+* **ตัวอักษรพม่า:** **หัวหน้าခင်ဗျာ၊ စာရွက်စာတမ်းတွေကို အတည်ပြုပေးပါနော်။**
+
+---
+
+**อธิบายเพิ่มเติมเกี่ยวกับคำศัพท์:**
+* **หัวหน้าခင်ဗျာ** (หัวหน้าขิ่นเบีย) = หัวหน้าครับ (หากผู้พูดเป็นผู้หญิง ให้เปลี่ยนคำว่า ခင်ဗျာ *ขิ่นเบีย* เป็น ရှင် *ชิน*)
+* **စာရွက်စာတမ်းတွေ** (ส่ายเวก ส่าดาน ดเว) = เอกสารต่างๆ
+* **အတည်ပြုပေးပါ** (อะต่ง ปยู่ เป้ บา) = ช่วยอนุมัติให้ด้วย"
+7,Full Context,Accurate,100,False,,,မန်နေဂျာခင်ဗျာ၊ စာရွက်စာတမ်းတွေကို အတည်ပြုပေးဖို့ မေတ္တာရပ်ခံပါတယ်ခင်ဗျာ။
+7,Ablation: No Social Hierarchy,Partially accurate,37.5,True,R6,Address term for 'Manager' not used,အထက်လူကြီးခင်ဗျာ၊ စာရွက်စာတမ်းတွေကို အတည်ပြုပေးဖို့ ကူညီပေးပါဦးခင်ဗျာ။
+7,Ablation: No Social Distance,Partially accurate,37.5,True,R6,Address term for 'Manager' not used,အထက်လူကြီးခင်ဗျာ၊ စာရွက်စာတမ်းတွေကို အတည်ပြုပေးဖို့ မေတ္တာရပ်ခံပါရစေ ခင်ဗျာ။
+7,Ablation: No Communicative Intent,Partially accurate,37.5,True,R3 R6,Unresolved alternative forms ('/' or parentheses); Address term for 'Manager' not used,ဆရာ/မ ခင်ဗျာ၊ စာရွက်စာတမ်းတွေကို အတည်ပြုပေးဖို့ မေတ္တာရပ်ခံပါရစေ ခင်ဗျာ။
+8,Zero-Shot,Partially accurate,0,True,R1 R2 R3,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output; Unresolved alternative forms ('/' or parentheses),"Thai sentence: **หัวหน้าคะ หนูโทรมาขอลาป่วยค่ะ**
+
+Burmese translation:
+**အထက်လူကြီးရှင့်/ဆရာရှင့်၊ သမီး နေမကောင်းလို့ ခွင့်ယူဖို့ ဖုန်းဆက်တာပါရှင့်။**
+
+*Spoken Pronunciation (approximate):*
+Ah-thet-loo-gyee-shin / Sa-ya-shin, Tha-mee neh-ma-kaung-lo khwin-yoo-boh hpone-sat-ta-ba-shin.
+
+**Breakdown of the translation:**
+* **หัวหน้าคะ:** အထက်လူကြီးရှင့် (Ah-thet-loo-gyee-shin - *Boss*) or ဆရာရှင့် (Sa-ya-shin - *Sir/Manager*)
+* **หนู:** သမီး (Tha-mee - *I/me used by younger females*)
+* **โทรมา:** ဖုန်းဆက်တာပါ (Hpone-sat-ta-ba - *calling*)
+* **ขอลาป่วยค่ะ:** နေမကောင်းလို့ ခွင့်ယူဖို့...ရှင့် (Neh-ma-kaung-lo khwin-yoo-boh...shin - *to ask for sick leave*)"
+8,Full Context,Partially accurate,0,True,R6,Address term for 'Manager' not used,ဆရာ… သမီး နေမကောင်းလို့ ခွင့်ယူဖို့ ဖုန်းဆက်တာပါရှင်။
+8,Ablation: No Social Hierarchy,Partially accurate,71.4,True,R7,Self-reference does not fit speaker gender/hierarchy,မန်နေဂျာရှင့်၊ ညီမ ဆေးခွင့်ယူဖို့ ဖုန်းဆက်တာပါရှင့်။
+8,Ablation: No Social Distance,Accurate,100,False,,,မန်နေဂျာရှင့်၊ သမီး နေမကောင်းလို့ ခွင့်ယူဖို့ ဖုန်းဆက်တာပါရှင့်။
+8,Ablation: No Communicative Intent,Accurate,100,False,,,မန်နေဂျာရှင့်၊ သမီး နေမကောင်းလို့ ခွင့်ယူဖို့ ဖုန်းဆက်တာပါရှင့်။
+9,Zero-Shot,Partially accurate,0,True,R1 R2,Output is not a single sentence (commentary/markdown present); Thai script found in Burmese output,"นี่คือประโยคแปลภาษาพม่าครับ:
+
+**หัวหน้าครับ ผมขออนุมัติลาพักร้อนในระบบครับ**
+
+* **ภาษาพม่า (ตัวอักษร):** 
+  หัวหน้าครับ ผมขออนุมัติลาพักร้อนในระบบครับ -> **หัวหน้าครับ ผมยื่นอนุมัติลาพักร้อนในระบบแล้วครับ**
+  > **""หัวหน้าครับ:""**
+  > အထက်လူကြီးခင်ဗျာ (อะแทะ ลูจี ขะဗยา) - *หัวหน้าครับ*
+  > หรือ หัวหน้า (Boss/Manager): မန်နေဂျာခင်ဗျာ (แม้นเนจา ขะဗยา) / ဆရာခင်ဗျာ (ซะยา ขะဗยา)
+  >
+  > **ประโยคเต็ม:**
+  > **အထက်လူကြီးခင်ဗျာ၊ စနစ်ထဲမှာ ခွင့်ရက်ရှည် ခွင့်ပြုမိန့် တောင်းခံထားပါတယ်ခင်ဗျာ။**
+
+* **คำอ่านภาษาไทย:**
+  > **อะแทะ ลูจี ขะဗยา, สะนิ ถ้ะมา ขวิ่น แยะ ฉี่ ขวิ่น ปยุ เม่ง ต้อง ขั่น ถ่า บา แด ขะဗยา**
+
+---
+
+**แยกคำศัพท์เพื่อความเข้าใจ:**
+* **အထက်လူကြီး (อะแทะ ลูจี) / ဆရာ (ซะยา):** หัวหน้า / เจ้านาย
+* **ခင်ဗျာ (ขะဗยา):** ครับ (คำสุภาพสำหรับผู้ชาย)
+* **စနစ်ထဲမှာ (สะนิ ถ้ะมา):** ในระบบ
+* **ခွင့်ရက်ရှည် (ขวิ่น แยะ ฉี่):** ลาพักร้อน / ลายาว
+* **ခွင့်ပြုမိန့် တောင်းခံထားပါတယ် (ขวิ่น ปยุ เม่ง ต้อง ขั่น ถ่า บา แด):** ขออนุมัติ (ยื่นขออนุมัติไว้แล้ว)"
+9,Full Context,Accurate,100,False,,,မန်နေဂျာခင်ဗျာ၊ ကျွန်တော် စနစ်ထဲမှာ အလုပ်ပိတ်ရက်ခွင့် တောင်းထားတာကို အတည်ပြုပေးဖို့ တောင်းဆိုချင်ပါတယ်ခင်ဗျာ။
+9,Ablation: No Social Hierarchy,Accurate,100,False,,,မန်နေဂျာခင်ဗျာ၊ ကျွန်တော် စနစ်ထဲမှာ အလုပ်အားလပ်ရက်ခွင့် တောင်းခံထားတာကို အတည်ပြုပေးဖို့ တောင်းဆိုပါတယ်ခင်ဗျာ။
+9,Ablation: No Social Distance,Accurate,100,False,,,မန်နေဂျာခင်ဗျာ၊ ကျွန်တော် စနစ်ထဲမှာ အလုပ်ပိတ်ရက်ခွင့် တောင်းဆိုထားတာကို အတည်ပြုပေးဖို့ တောင်းဆိုချင်ပါတယ်ခင်ဗျာ။
+9,Ablation: No Communicative Intent,Partially accurate,44.4,True,R3 R6,Unresolved alternative forms ('/' or parentheses); Address term for 'Manager' not used,ဆရာ/မ ခင်ဗျာ၊ ကျွန်တော် စနစ်ထဲမှာ အလုပ်အားလပ်ရက်ခွင့် တင်ထားတာကို အတည်ပြုပေးဖို့ တောင်းဆိုချင်ပါတယ်ခင်ဗျာ။

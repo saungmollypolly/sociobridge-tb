@@ -1,0 +1,316 @@
+{
+ "reference_test_dev": {
+  "Upward": {
+   "n": 8,
+   "flagged": 0,
+   "by_rule": {},
+   "flagged_nos": []
+  }
+ },
+ "reference_test_heldout": {
+  "Upward": {
+   "n": 53,
+   "flagged": 34,
+   "by_rule": {
+    "R4": 12,
+    "R3": 6,
+    "R6": 20,
+    "R5": 1,
+    "R8": 3,
+    "R9": 1
+   },
+   "flagged_nos": [
+    [
+     11,
+     [
+      "R4"
+     ]
+    ],
+    [
+     16,
+     [
+      "R3"
+     ]
+    ],
+    [
+     18,
+     [
+      "R6"
+     ]
+    ],
+    [
+     19,
+     [
+      "R6"
+     ]
+    ],
+    [
+     21,
+     [
+      "R6"
+     ]
+    ],
+    [
+     22,
+     [
+      "R5",
+      "R6"
+     ]
+    ],
+    [
+     25,
+     [
+      "R6"
+     ]
+    ],
+    [
+     48,
+     [
+      "R6",
+      "R8"
+     ]
+    ],
+    [
+     49,
+     [
+      "R6",
+      "R8"
+     ]
+    ],
+    [
+     50,
+     [
+      "R6"
+     ]
+    ],
+    [
+     51,
+     [
+      "R6"
+     ]
+    ],
+    [
+     52,
+     [
+      "R6"
+     ]
+    ],
+    [
+     53,
+     [
+      "R6"
+     ]
+    ],
+    [
+     54,
+     [
+      "R6"
+     ]
+    ],
+    [
+     58,
+     [
+      "R6"
+     ]
+    ],
+    [
+     59,
+     [
+      "R6"
+     ]
+    ],
+    [
+     60,
+     [
+      "R6"
+     ]
+    ],
+    [
+     61,
+     [
+      "R4"
+     ]
+    ],
+    [
+     62,
+     [
+      "R4"
+     ]
+    ],
+    [
+     63,
+     [
+      "R4"
+     ]
+    ],
+    [
+     64,
+     [
+      "R4"
+     ]
+    ],
+    [
+     66,
+     [
+      "R4"
+     ]
+    ],
+    [
+     71,
+     [
+      "R4"
+     ]
+    ],
+    [
+     72,
+     [
+      "R4"
+     ]
+    ],
+    [
+     75,
+     [
+      "R4",
+      "R6"
+     ]
+    ],
+    [
+     76,
+     [
+      "R6"
+     ]
+    ],
+    [
+     77,
+     [
+      "R4",
+      "R6"
+     ]
+    ],
+    [
+     88,
+     [
+      "R4",
+      "R6"
+     ]
+    ],
+    [
+     90,
+     [
+      "R9"
+     ]
+    ],
+    [
+     93,
+     [
+      "R3"
+     ]
+    ],
+    [
+     94,
+     [
+      "R3"
+     ]
+    ],
+    [
+     95,
+     [
+      "R3"
+     ]
+    ],
+    [
+     96,
+     [
+      "R3",
+      "R8"
+     ]
+    ],
+    [
+     97,
+     [
+      "R3",
+      "R4",
+      "R6"
+     ]
+    ]
+   ]
+  },
+  "Downward": {
+   "n": 25,
+   "flagged": 0,
+   "by_rule": {},
+   "flagged_nos": []
+  },
+  "Equal": {
+   "n": 13,
+   "flagged": 0,
+   "by_rule": {},
+   "flagged_nos": []
+  }
+ },
+ "diagnosis": {
+  "R6_flags": 20,
+  "R6_no_address_word_in_source": 13,
+  "R4_flags": 12,
+  "R4_informal_ending": 7,
+  "R3_flags": 6,
+  "R3_listener_gender_unknown": 6,
+  "R9_flags": 1
+ },
+ "mutation_test": {
+  "wrong-gender final particle": {
+   "n": 17,
+   "expected_rule_flagged": 17,
+   "any_flag": 17,
+   "misses": []
+  },
+  "final particle removed": {
+   "n": 19,
+   "expected_rule_flagged": 19,
+   "any_flag": 19,
+   "misses": []
+  },
+  "casual pronoun added": {
+   "n": 19,
+   "expected_rule_flagged": 19,
+   "any_flag": 19,
+   "misses": []
+  },
+  "generic address term": {
+   "n": 9,
+   "expected_rule_flagged": 9,
+   "any_flag": 9,
+   "misses": []
+  },
+  "hedged alternatives": {
+   "n": 19,
+   "expected_rule_flagged": 19,
+   "any_flag": 19,
+   "misses": []
+  },
+  "wrong-gender self-reference": {
+   "n": 17,
+   "expected_rule_flagged": 17,
+   "any_flag": 17,
+   "misses": []
+  },
+  "Thai script leaked": {
+   "n": 19,
+   "expected_rule_flagged": 19,
+   "any_flag": 19,
+   "misses": []
+  },
+  "commentary / markdown": {
+   "n": 19,
+   "expected_rule_flagged": 19,
+   "any_flag": 19,
+   "misses": []
+  },
+  "number dropped": {
+   "n": 0,
+   "expected_rule_flagged": 0,
+   "any_flag": 0,
+   "misses": []
+  }
+ }
+}
