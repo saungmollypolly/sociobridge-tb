@@ -180,16 +180,17 @@ if pl.get_client() is None:
 def situation_form():
     section("Situation")
     s1, s2 = st.columns([1.4, 2])
+    # The workbook holds participant data and is kept offline, so the option only
+    # appears where the file exists (the author's computer), not on Streamlit Cloud.
+    sources = ["Pilot (8 sentences)"] + (["Workbook (all rows)"] if Path(DEFAULT_PATH).exists() else []) + ["Custom"]
     with s1:
-        src = st.radio("Sentence source", ["Pilot (8 sentences)", "Workbook (all rows)", "Custom"],
-                       horizontal=True)
+        src = st.radio("Sentence source", sources, horizontal=True)
     pool = load_pilot() if src.startswith("Pilot") else (load_wb() if src.startswith("Workbook") else [])
     labels = {f"#{s['no']} [{s['social_hierarchy']['direction']}] {s['th'][:60]}": s for s in pool}
     with s2:
         choice = st.selectbox("Sentence", list(labels)) if labels else None
     if src.startswith("Workbook") and not pool:
-        st.warning("The data-collection workbook is not available here (participant data is kept offline; "
-                   f"locally it is read from {DEFAULT_PATH}). Use the Pilot or Custom source.")
+        st.warning("The workbook could not be read. Use the Pilot or Custom source.")
     p = labels.get(choice) if choice else None
     if p and p.get("validated") != "Y" and src.startswith("Workbook"):
         st.caption("Note: this row is not marked Validated (Y) in the workbook.")
