@@ -136,6 +136,22 @@ python src/eval_checker_heldout.py        # validated rows only (Validated = Y)
 python src/eval_checker_heldout.py --all  # every row
 ```
 
+**5. Decide and repair evaluation (needs `GEMINI_API_KEY`; strict mode, no fallback model; resumable):**
+
+```bash
+python src/eval_decide.py --model gemini-3.6-flash           # Full Context + Decide, and Decide + repair
+python src/eval_decide.py --model gemini-3.6-flash --rerun   # also re-run plain Full Context
+```
+
+Writes `results/decide_eval_summary.txt` and the MQM annotation sheet `results/decide_eval_for_annotation.csv`.
+
+**6. Draw the paper's figures** (local tools, not in requirements.txt):
+
+```bash
+python src/draw_fig1.py   # Fig. 1, architecture diagram (Pillow; Windows fonts Times New Roman, Leelawadee UI)
+python src/plot_fig2.py   # Fig. 2, from results/scores.csv (matplotlib)
+```
+
 ## Pilot results (Gemini 3.6 Flash, 8 sentences × 5 conditions)
 
 | Condition | Pooled MQM TQ | Mean MQM TQ | Accurate | BLEU | chrF |
