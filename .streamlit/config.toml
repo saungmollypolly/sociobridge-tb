@@ -1,0 +1,16 @@
+# Light and dark themes; the app follows the viewer's system setting by default,
+# and viewers can switch in the top-right menu (⋮ → System / Light / Dark).
+[theme.light]
+primaryColor = "#1F5FAE"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F5F9"
+textColor = "#1A1A1A"
+
+[theme.dark]
+primaryColor = "#5B9BEA"
+backgroundColor = "#0E1621"
+secondaryBackgroundColor = "#1A2533"
+textColor = "#E6EAF0"
+
+[client]
+toolbarMode = "viewer"
